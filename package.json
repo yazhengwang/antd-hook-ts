@@ -1,0 +1,74 @@
+{
+  "name": "antd-demo-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/pro-form": "^1.39.0",
+    "@babel/plugin-proposal-decorators": "^7.16.4",
+    "@craco/craco": "^6.2.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-config": "^5.0.3",
+    "@types/react-router-dom": "^5.3.1",
+    "@types/redux-logger": "^3.0.9",
+    "antd": "^4.16.11",
+    "babel-plugin-import": "^1.13.3",
+    "craco-antd": "^1.19.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "mock": "^0.1.1",
+    "mockjs": "^1.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-logger": "^1.1.0",
+    "react-redux": "^7.2.5",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpackbar": "^5.0.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "start:dev": "cross-env REACT_APP_MODE=dev craco start",
+    "start:pre": "cross-env REACT_APP_MODE=pre craco start",
+    "start:pro": "cross-env REACT_APP_MODE=pro craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  }
+}
