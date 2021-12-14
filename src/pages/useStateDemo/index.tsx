@@ -17,6 +17,14 @@ const Count:FC<IProps>=()=> {
         setCount(count=>count + val)
     } 
 
+    useEffect(()=>{
+      fetch('/api/list').then(res=>res.json()).then(rep=>{
+        console.log('====================================');
+        console.log(rep);
+        console.log('====================================');
+      })
+    },[count])
+
 
     return (
         <>
