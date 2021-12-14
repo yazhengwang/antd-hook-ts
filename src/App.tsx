@@ -34,14 +34,14 @@ const App:FC = (props: any) => {
 
   useEffect(() => {
     setPathname(pathname)
-    console.log('process.env----->',process.env);
-    if (process.env.REACT_APP_MODE==='dev'){
-      console.log('测试环境');
-    }else if (process.env.REACT_APP_MODE==='pre'){
-      console.log('预生产环境');
-    }else if(process.env.REACT_APP_MODE==='pro'){
-      console.log('生产环境');
-    }
+    // console.log('process.env----->',process.env);
+    // if (process.env.REACT_APP_MODE==='dev'){
+    //   console.log('测试环境');
+    // }else if (process.env.REACT_APP_MODE==='pre'){
+    //   console.log('预生产环境');
+    // }else if(process.env.REACT_APP_MODE==='pro'){
+    //   console.log('生产环境');
+    // }
   }, [pathname]);
 
   // const loadMenuItem:FC<IProps>=({ menu, level = 0 }:IProps):ReactElement => 

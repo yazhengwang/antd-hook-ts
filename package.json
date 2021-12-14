@@ -67,6 +67,8 @@
     ]
   },
   "devDependencies": {
+    "@types/mockjs": "^1.0.4",
+    "ahooks": "^3.0.1",
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
     "uglifyjs-webpack-plugin": "^2.2.0"

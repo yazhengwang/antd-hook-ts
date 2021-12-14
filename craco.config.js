@@ -25,17 +25,17 @@ module.exports = {
   // },
   webpack: {
     entry: "./src/index.js",
-    output: {
-      filename: "bundle.js",
-      path: path.resolve(__dirname, "dist"),
-    },
+    // output: {
+    //   filename: "bundle.js",
+    //   path: path.resolve(__dirname, "dist"),
+    // },
     alias: {
       "@": path.join(__dirname, "src"),
     },
     plugins: {
       add: [
         new Webpackbar(),
-        new UglifyJSPlugin(),
+        // new UglifyJSPlugin(),
         //设置环境变量
         new webpack.DefinePlugin({
           "process.env": JSON.stringify(env),

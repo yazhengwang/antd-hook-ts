@@ -1,8 +1,9 @@
 // 数组的每一个对象类型
 export interface ITodo{
     id: number,
-    content: string,
-    completed:boolean
+    name: string,
+    email:string,
+    completed?:boolean
 }
 
 // 数组类型

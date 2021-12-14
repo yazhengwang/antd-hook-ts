@@ -12,12 +12,12 @@ const TotoList:FC=()=>{
     // const param = useParams<RouteParams>();
     // return <div>Show路由参数：{param.id}</div>
 
-    const [data] = useState<ITodo[]>([])
+    // const [data] = useState<ITodo[]>([])
 
 
     return <div>
         
-        <List data ={data}/>
+        <List />
     </div>
 }
 export default TotoList;
